@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>垃圾分类</title>
+</head>
+<body>
+    <h1>上传图片进行垃圾分类</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <input type="submit" value="预测">
+    </form>
+</body>
+</html>
